@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>Restaurant Locator - by Algolia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="icon" href="./assets/favicon.ico" type="image/png"/>
+  <link rel="stylesheet" href="index.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<!-- INTERFACE -->
+<div class="page">
+  <div class="page__container">
+    <div class="search-bar__container">
+      <div class="search-bar">
+        <input
+          id="search-bar__input"
+          class="search-bar__input"
+          type="text"
+          placeholder="Search for restaurants by name, cuisine, or location"
+        />
+      </div>
+    </div>
+    <div class="result-filter__container">
+      <div id="filter">
+      </div>
+      <div class="results">
+      </div>
+    </div>
+    <!-- /INTERFACE -->
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch-helper@3.21.0/dist/algoliasearch.helper.min.js"></script>
+    <script src="./index.js"></script>
+    <!-- /SCRIPTS -->
+</body>
+</html>
